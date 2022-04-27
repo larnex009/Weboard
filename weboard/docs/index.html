@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Charts</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Offline Bootstrap CSS -->
+    <link rel="stylesheet" href="/Assets/css/bootstrap-reboot.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+   
+
+    <!-- Bootstrap Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand pb-lg-3" href="#">
+              <img src="Assets/images/logo.png" alt="" width="100" height="24" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav flex-row flex-wrap pt-2  mt-2 mt-lg-0 py-md-0">
+                    
+                    <!-- Menu List One -->
+                    <li class="nav-item dropdown has-megamenu col-6 col-lg-auto">
+                        <a class="nav-link active" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            CHARTS
+                        </a>
+                        <div class="dropdown-menu megamenu bg-subnavbar text-light " role="menu">
+                            <div class="row m-3">
+
+                                <!-- First Column -->
+                                <div class="col-md-6 col-lg-3 col-12">
+                                    <span class="subnavbar-heading">
+                                        Weekly
+                                    </span>
+                                    <ul class="navbar-nav flex-row flex-wrap col-12 col-lg-auto pt-2 py-md-0">
+                                        <li class="nav-item col-12 col-lg-auto">
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Hot 100
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Billboard-200
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Artist 100
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Song of The Summer
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Billboard Global 200
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Billboard Global Excl. US
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link-sec">
+                                                    All Weekly Charts
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <hr class="text-white-50 d-lg-none my-2">
+
+                                <!-- Second Column -->
+                                <div class="col-md-6 col-lg-3 col-12">
+                                    <span class="subnavbar-heading">
+                                        Monthly
+                                    </span>
+                                    <ul class="navbar-nav flex-row flex-wrap col-12 col-lg-auto pt-2 py-md-0">
+                                        <li class="nav-item col-12 col-lg-auto">
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Song Breaker
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <hr class="text-white-50 d-lg-none my-2">
+
+                                <!-- Third Column -->
+                                <div class="col-md-6 col-lg-3 col-12">
+                                    <span class="subnavbar-heading">
+                                        Year-End
+                                    </span>
+                                    <ul class="navbar-nav flex-row flex-wrap col-12 col-lg-auto pt-2 py-md-0">
+                                        <li class="nav-item col-12 col-lg-auto">
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Year-End Hot 100 Songs
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Year-End Billboard 200 Album
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    2020 Year-End Boxscore
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link-sec">
+                                                    All Year-End Charts
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <hr class="text-white-50 d-lg-none my-2">
+
+                                <!-- Four Column -->
+                                <div class="col-md-6 col-lg-3 col-12 my-2">
+                                    
+                                    <span class="subnavbar-heading">
+                                        Decade-End
+                                    </span>
+                                    <ul class="navbar-nav flex-row flex-wrap col-12 col-lg-auto pt-2 py-md-0">
+                                        <li class="nav-item col-12 col-lg-auto">
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Decade-End Top Artists
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Decade-End Top Artists - interactive
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Decade-End Hot 100 Songs
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link">
+                                                    Decade-End billboard 200 Albums
+                                                </span>
+                                            </a>
+                                            <a href="#" class="nav-link px-0">
+                                                <span class="subnavbar-link-sec">
+                                                    All Decadr-End-Charts
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> <!-- dropdown-mega-menu.// -->
+                    </li>
+
+                    <!-- Menu List Two -->
+                    <li class="nav-item col-6 col-lg-auto">
+                        <a class="nav-link" href="#">NEWS</a>
+                    </li>
+
+                    <!-- Menu List Three -->
+                    <li class="nav-item col-6 col-lg-auto">
+                        <a class="nav-link" href="#">VIDEO</a>
+                    </li>
+
+                    <!-- Menu List Four -->
+                    <li class="nav-item col-6 col-lg-auto">
+                        <a class="nav-link">PHOTOS</a>
+                    </li>
+
+                    
+                </ul>
+                
+
+                <hr class="text-white-50 d-md-block">
+                
+                <ul class="navbar-nav flex-row flex-wrap pt-2 py-md-0 ms-auto ">
+                    <li class="nav-item col-6 col-lg-auto">
+                        <button class="nav-link btn btn-md btn-outline-primary fw-bold text-light px-2"  href="#">
+                            SUBSCRIBE
+                        </button>
+                    </li>
+                    <li class="nav-item mx-lg-4 mx-0 col-6 col-lg-auto">
+                    <a class="nav-link text-light" href="#">
+                        SIGN IN
+                    </a>
+                    </li>
+                    <li class="nav-item mx-lg-1 mx-0 col-6 col-lg-auto">
+                        <a class="nav-link text-light px-1 px-lg-1 text-light" href="#">
+                            <i class="bi bi-search h5 text-info"></i>
+                            <small class="d-lg-none">
+                                Search
+                            </small>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Title SectioN -->
+    <section class="container py-5 text-center"> 
+        <h1 class="fw-bolder text-primary fs-1">
+            THE HOT 100
+        </h1>
+        <p>
+            Week of
+            <a href="#" class="text-decoration-none">
+                <span class="text-primary">
+                    September 15, 2021
+                    <i class="bi bi-chevron-down"></i>
+                </span>
+            </a> 
+
+            <div>
+                <input type="date" id="start" name="Week-chart" value="2021-10-11" min="2002-01-01" max="2050-12-31">
+            </div>
+        </p>
+
+        <!-- Full screen modal -->
+        <div class="ratio ratio-16x9 mt-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HOQwW59u1dA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+    
+    <!-- This week chart section -->
+    <section class="container py-3 text-center">
+        <p class="text-primary">
+            THIS WEEK IN THE CHART
+        </p>
+        <div class="row py-3">
+            <div class="col-2">
+                <div class="" style="width: 10rem;">
+                    <div class="card bg-dark text-white py-5" style="background-image: url(https://charts-static.billboard.com/img/2021/09/drake-p3d-way-2-sexy-hhn-155x155.jpg);">
+                        <h6 class="">
+                            Way 2 Sexy
+                        </h6>
+                        <small class="text-muted">
+                            Drake Featuring Future
+                        </small>
+                    </div>
+                    <small class="text-primary">
+                        HOT SHOT DEBUT
+                    </small>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="" style="width: 10rem;">
+                    <div class="card bg-dark text-white py-5" style="background-image: url(https://charts-static.billboard.com/img/2021/07/the-kid-laroi-qev-stay-ens-155x155.jpg);">
+                        <h6 class="">
+                           STAY
+                        </h6>
+                        <small class="text-muted">
+                            The KID Laroi featuring Justin Bieber
+                        </small>
+                    </div>
+                    <small class="text-primary">
+                        HOT SHOT DEBUT
+                    </small>
+                </div>
+            </div>
+            <div class="col-2 ">
+                <div class="" style="width: 10rem;">
+                    <div class="card bg-dark text-white py-5" style="background-image: url(https://charts-static.billboard.com/img/2021/07/the-kid-laroi-qev-stay-ens-155x155.jpg);">
+                        <h6 class="">
+                           HEAT WAVES
+                        </h6>
+                        <small class="text-muted">
+                            Glass-animals
+                        </small>
+                    </div>
+                    <small class="text-primary">
+                        HOT SHOT DEBUT
+                    </small>
+                </div>
+            </div>
+            <div class="col-2 ">
+                <div class="" style="width: 10rem;">
+                    <div class="card bg-dark text-white py-5" style="background-image: url(https://charts-static.billboard.com/img/2021/07/jason-aldean-uq3-if-i-didnt-love-you-g1s-155x155.jpg);">
+                        <h6 class="">
+                           If i didnt love you
+                        </h6>
+                        <small class="text-muted">
+                            Jason-aldean
+                        </small>
+                    </div>
+                    <small class="text-primary">
+                        HOT SHOT DEBUT
+                    </small>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="" style="width: 10rem;">
+                    <div class="card bg-dark text-white py-5" style="background-image: url(https://charts-static.billboard.com/img/2009/04/drake-p3d-155x155.jpg);">
+                        <h6 class="">
+                           Girls Want Girls
+                        </h6>
+                        <small class="text-muted">
+                            Drake
+                        </small>
+                    </div>
+                    <small class="text-primary">
+                        HOT SHOT DEBUT
+                    </small>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="" style="width: 10rem;">
+                    <div class="card bg-dark text-white py-5" style="background-image: url(https://charts-static.billboard.com/img/2009/04/drake-p3d-155x155.jpg);">
+                        <h6 class="">
+                         Fair Trade 
+                        </h6>
+                        <small class="text-muted">
+                            Drake featuring Travis Scott
+                        </small>
+                    </div>
+                    <small class="text-primary">
+                        HOT SHOT DEBUT
+                    </small>
+                </div>
+            </div>
+
+            <div class="col-2">2</div>
+            <div class="col-2 ">3</div>
+            <div class="col-2 ">4</div>
+            <div class="col-2">5</div>
+            <div class="col-2">6</div>
+
+        </div>
+    </section>
+
+    <!-- Chart List Section -->
+    <section class="container py-3 card1">
+    
+        <div class="d-flex justify-content-end">
+            <p class="me-3">THIS WEEK </p>
+            <p class="mx-3">AWARD</p>
+            <p class="mx-3">LAST WEEK </p>
+            <p class="mx-3">PEAK </p>
+            <p class="mx-3">WKS ON CHART </p>
+            <p class="me-5 pe-5"> </p>
+        </div>
+
+  
+
+
+       
+
+        
+
+        </div>
+
+
+    </section>
+
+    <!-- Bootstrap JS with Popper-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+   
+    <!-- Offline Bootstrap JS  -->
+    <script src="/Assets/js/bootstrap.min.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="/script.js"></script>
+
+
+     <!--Custom javascript-->
+     <script src="main.js"></script>
+
+    
+     <!--Custom javascript-->
+     <script src="/main.js"></script>
+
+
+</body>
+</html>
